@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+body{
+    background: lightgrey;
+    margin: 10px;
+    font-family: antarctican-headline, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #632412; 
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+

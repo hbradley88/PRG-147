@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 01</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/main.js" defer></script>
+    <script>
+        function changeHead(){
+        document.getElementById("info").innerHTML="Baylee is a Good Dog, but she is not the Best Dog."
+        }
+    </script>
+</head>
+<body onload = "addText()">
+
+<div class="container">
+    <h1>Who is the Best Dog?</h1>
+    <img src="images/bella.jpg" alt="Bella" id="dog">
+    <div class="buttons">
+        <button onclick="change1()" >Bella</button>
+        <button onclick="change2()">Baylee</button>
+        <button onclick="change3()">Baxter</button>
+    </div>
+    <p>These are the Bradley Family Dogs</p>
+    <p id="info"></p>
+    <script type="text/javascript">
+        document.getElementById('info').innerHTML='There have been many Good Dogs'
+    </script>
+    <button class="button" onclick="changeExt()">Was it Bella?</button>
+    <button class="button" onclick="changeHead()">Was it Baylee?</button>
+    <button class="button" onclick="changeImage()">Make the image bigger</button>
+    <button class="button" onclick="changeText()">Change the text</button>
+    <div class="buttons">
+        <button onclick="show()">Show</button>
+        <button onclick="hide()">Hide</button>
+    </div>
+</div>
+        
+</body>
+</html>

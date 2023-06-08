@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu choices</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/calculate.js"></script>
+</head>
+
+<body onload="setValues()">
+
+    <header>
+        <h1>Menu Choices</h1>
+    </header>
+    <main class="container">
+            <form>
+            <div class="top">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="fname"><br>                
+            </div>
+
+            <div class="meal" id="sandwich">
+                <h3>Sandwiches</h3>
+                <input type="checkbox" id="sand1" name="sand1" value="4.00">
+                <label for="sand1"> Ham and Swiss</label><br>
+                <input type="checkbox" id="sand2" name="sand2" value="4.50">
+                <label for="sand2"> Turkey and Cheddar</label><br>
+                <input type="checkbox" id="sand3" name="sand3" value="5.00">
+                <label for="sand3"> Roast Beef</label>
+                <input type="checkbox" id="sand4" name="sand4" value="5.75">
+                <label for="sand4"> Tuna Salad</label>
+                <input type="checkbox" id="sand5" name="sand5" value="6.00">
+                <label for="sand5"> Grilled Cheese</label>
+            </div>
+
+            <div class="meal" id="drink">
+                <h3>Drinks</h3>
+                <input type="checkbox" id="drink1" name="drink1" value="soda">
+                <label for="drink1"> Soda</label><br>
+                <input type="checkbox" id="drink2" name="drink2" value="milk">
+                <label for="drink2"> Milk</label><br>
+                <input type="checkbox" id="drink3" name="drink3" value="water">
+                <label for="drink3"> Water</label>
+                <input type="checkbox" id="drink4" name="drink4" value="coffee">
+                <label for="drink4"> Coffee</label>
+                <input type="checkbox" id="drink5" name="drink5" value="tea">
+                <label for="drink5"> Tea</label>
+            </div>
+
+            <div class="meal" id="dessert">
+                <h3>Drinks</h3>
+                <input type="checkbox" id="dessert1" name="dessert1" value="icecream">
+                <label for="dessert1"> Ice Cream</label><br>
+                <input type="checkbox" id="dessert2" name="dessert2" value="cake">
+                <label for="dessert2"> Cake</label><br>
+                <input type="checkbox" id="dessert3" name="dessert3" value="pie">
+                <label for="dessert3"> Pie</label>
+                <input type="checkbox" id="dessert4" name="dessert4" value="cookie">
+                <label for="dessert4"> Cookie</label>
+                <input type="checkbox" id="dessert5" name="dessert5" value="brownie">
+                <label for="dessert5"> Brownie</label>
+            </div>
+           
+            </div>
+
+            <div class="bottom">
+                <button type="button" onclick="total()">Get Total</button>
+                <h3>Total: </h3>
+                <p id="estimate"></p>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

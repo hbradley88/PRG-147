@@ -237,6 +237,12 @@ h2 {
     font-size: 1.5em;
 }
 
+h3 {
+    text-align: center;
+    color: var(--primary);
+    font-weight: bold;
+}
+
 .buttons {
     width: 30%;
     margin: 10px auto;
@@ -257,4 +263,22 @@ button:hover {
 
 p {
     padding: 10px;
+}
+
+.room {
+    width: 30%;
+    margin: 10px 1%;
+    border: 1px solid var(--primary-dark);
+    padding: 25px;
+}
+
+#room2,
+#room3 {
+    display: none;
+}
+
+.top,
+.bottom {
+    margin: 25px 30px;
+    text-align: center;
 }

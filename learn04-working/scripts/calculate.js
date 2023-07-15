@@ -24,7 +24,18 @@ function estimate(){
 
 function showScreen(){
     let numRooms = document.getElementById("rooms").value;
-    if numRooms = 1;
+    if value = 1;
+    document.getElementById("room1").style.display = "block"
+    document.getElementById("room2").style.display = "none"
+    document.getElementById("room3").style.display = "none"
+    if value = 2;
+    document.getElementById("room1").style.display = "block"
+    document.getElementById("room2").style.display = "block"
+    document.getElementById("room3").style.display = "none"
+    if value = 3;
+    document.getElementById("room1").style.display = "block"
+    document.getElementById("room2").style.display = "block"
+    document.getElementById("room3").style.display = "block"
         
 
 }

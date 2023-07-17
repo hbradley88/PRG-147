@@ -68,21 +68,23 @@ function start() {
 
     // Write code to demonstrate the use of the switch statement and display results to switch paragrah
 
-    // var answer = window.prompt("Type YES, NO, or MAYBE. Then click OK.");
-    // switch ( answer) {
-    //     case "YES";
-    //     document.getElementById("switch").innerHTML = "You said YES!";
-    //     break;
-    //     case "MAYBE";
-    //     document.getElementById("switch").innerHTML = "Maybe? Really?";
-    //     break;
-    //     case "NO";
-    //     document.getElementById("switch").innerHTML = "How could you say no?";
-    //     break;
-    //     default;
-    //     document.getElementById("switch").innerHTML = "You rebel you!";
-    //     break;
-    // }
+    function switchButton() {
+        var answer = window.prompt("Type YES, NO, or MAYBE. Then click OK.");
+        switch (answer) {
+            case "YES":
+            document.getElementById("switch").innerHTML = "You said YES!";
+            break;
+            case "MAYBE":
+            document.getElementById("switch").innerHTML = "Maybe? Really?";
+            break;
+            case "NO":
+            document.getElementById("switch").innerHTML = "How could you say no?";
+            break;
+            default:
+            document.getElementById("switch").innerHTML = "You rebel you!";
+            break;
+        }
+    }
 
     // Watch Terse ifs: https://www.linkedin.com/learning/learning-the-javascript-language-2/terse-ifs?autoAdvance=true&autoSkip=true&autoplay=true&resume=false&u=69317474
     // Watch Ternary Operator:https://www.linkedin.com/learning/learning-the-javascript-language-2/ternary-operator?autoplay=true&resume=false&u=69317474
@@ -91,6 +93,6 @@ function start() {
     //animal = 'dog';
 
     animal ==="cat"
-        ?console.log("You will be a cat herder.")
-        :console.log("You will be a dog catcher.")
+        ?document.getElementById("add").innerHTML = "You will be a cat herder."
+        :document.getElementById("add").innerHTML = "You will be a dog catcher."
 }

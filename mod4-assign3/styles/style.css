@@ -1,0 +1,10 @@
+.lightMode {
+    background-color: white;
+    color: black;
+}
+
+.darkMode {
+    background-color: purple;
+    color: white;
+}
+

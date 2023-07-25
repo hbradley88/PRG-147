@@ -51,7 +51,7 @@ $(document).ready(function(){
     });
   });
 
-  $("textChange").click(function(){
+  $("#textChange").click(function(){
     $("#royalDogs").css("color", "purple")
       .css("font-size", "large")
       .slideUp(2000)

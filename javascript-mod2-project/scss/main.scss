@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.container{
+    display: row;
+    justify-content: center;
+    align-items: top;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    overflow: auto;
+    flex-wrap: wrap;
+    /* border: 2px solid lightcoral; */
+    justify-content: center;
+    align-items: center;
+}
+
+.aside{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#large{
+    width: 300px;
+}
+
+.card{
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px darkgray;
+    border-radius: 5px;
+    img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        h3{
+            text-align: center;
+            /* writing-mode: vertical-lr;
+            float: left; */
+            margin: 10px 0;
+           }
+           p{
+            margin: 5px;
+            text-align: center;
+           }
+           figcaption{
+            text-align: center;
+            font-style: italic;
+        }
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.doginfo{
+    border: 1px;
+    outline: 1px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: tan;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asidecard{
+    border: 1px;
+    outline: 1px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 10px;
+    color: black;
+    background-color: tan;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asidecaption{
+    font-size: 24pt;
+}
+
+.navy{
+    background-color: navy;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.purple{
+    background-color: purple;
+    color: white;
+}

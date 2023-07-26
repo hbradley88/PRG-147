@@ -4,6 +4,12 @@
 
 body {
   font-family: sans-serif;
+  background-color: #EEE;
+}
+
+p {
+  font-style: italic;
+  font-size: large;
 }
 
 /* ---- grid ---- */

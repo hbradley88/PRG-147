@@ -7,6 +7,14 @@ $('.grid').masonry({
 
 $(document).ready(function(){
 
+  $("#headline").click(function(){
+    $("h1").css({"color": "purple", "font-size": "72px"})
+  });
+
+  $("#intro").click(function(){
+    $("#dogHeadline").css({"color": "purple", "font-size": "88px"})
+  });
+
   $("#2019").click(function(){
     $(this).attr("src", "images/2019.png");
     $(this).attr("class", "grid-item--height3");
